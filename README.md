@@ -16,5 +16,18 @@ A MATLAB client was used to interface with the motor circuit and give it command
 <br>
 ![](images/motor_interface.png)
 
-## Demo
+## Demo & Results
+The demo below shows results for a step trajectory. The graph shown during the beginning of the video is a current control test for a constant signal that is run before the step trajectory for debugging purposes. After the step trajectory is completed, position control results are shown.
+<br>
+<br>
 <img src="images/demo.gif" width="400">
+
+Here are some additional results for current control only:
+<br>
+<br>
+![](images/current_control.png)
+
+Here are some results for a cubic trajectory:
+<br>
+<br>
+![](images/cubic_control.png)
