@@ -1,5 +1,6 @@
 #include "encoder.h"
 #include <xc.h>
+#include "utilities.h"
 
 static int encoder_command(int read) { // send a command to the encoder chip
                                        // 0 = reset count to 32,768, 1 = return the count
@@ -13,6 +14,10 @@ static int encoder_command(int read) { // send a command to the encoder chip
 
 int encoder_counts(void) {
   return encoder_command(1);
+}
+
+int encoder_reset(void) {
+  return encoder_command(0);
 }
 
 void encoder_init(void) {
