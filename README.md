@@ -25,9 +25,9 @@ The demo below shows results for a step trajectory. The graph shown during the b
 Here are some additional results for current control only:
 <br>
 <br>
-![](images/current_control.png)
+<img src="images/current_control.png" width="500">
 
 Here are some results for a cubic trajectory:
 <br>
 <br>
-![](images/cubic_control.png)
+<img src="images/cubic_control.png" width="500">
