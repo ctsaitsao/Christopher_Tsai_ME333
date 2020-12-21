@@ -13,6 +13,7 @@ A PIC32MX795F512H chip was mounted on a board (called the "NU32" Development Boa
 ## Motor Interface
 A MATLAB client was used to interface with the motor circuit and give it commands to acquire information (such as controller gains) and execute tasks (such as move to a specified angle). The full list of commands is below:
 <br>
+<br>
 ![](images/motor_interface.png)
 
 ## Demo
